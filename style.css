@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+form{
+    display:block;
+    align-items: flex-end;
+    padding: 10px;
+    
+}
+form input{
+    margin-bottom: 10px;
+}
+form label{
+    display: block;
+    
+    
+}
+form textarea{
+    height: 1rem;
+    width: 100%;
+}
+
+.group{
+    display: flex;
+    margin: 10px;
+    
+    
+}
+.item{
+    flex: 1;
+    margin: 10px;
+}
+
+@media all and (min-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
